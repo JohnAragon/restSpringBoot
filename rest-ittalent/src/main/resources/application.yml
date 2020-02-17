@@ -1,0 +1,12 @@
+spring:
+ jpa:
+  hibernate:
+   ddl-auto: update
+  properties:
+   hibernate:
+    dialect: org.hibernate.dialect.MySQL5Dialect
+ datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://3.19.70.67:3306/getGlobal
+  username: candidatos
+  password: global2020candidatos		
